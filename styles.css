@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
+/* the following is default changes for the whole page */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* setting variables */
 :root {
     --pale-blue: hsl(225, 100%, 94%);
     --very-pale-blue: hsl(225, 100%, 98%);
@@ -52,6 +54,7 @@ body {
     font-size: 18px;
 }
 
+/* this will be default changes inside container */
 .container>* {
     margin: 13px 0;
 }
